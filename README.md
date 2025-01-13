@@ -10,15 +10,17 @@ Developed a machine learning-based Email Classification System to efficiently ca
 
 ## Deployment Frontend ('/frontend')
 
-To Install all this modules run
+To Install all this modules, run
 ```bash
   npm install
 ```
 
-To deploy this project run
+To deploy this project, run
 ```bash
   npm run dev
 ```
+
+- <b>Note:</b> Change the api link as per your Backend Server <span style="background: gray; color: white; padding: 0.1rem 0.4rem">/frontend/src/actions/check-spam.ts</span>
 
 ## Credits
 - [Sameer singh bhandari](https://github.com/xtrimDev/)

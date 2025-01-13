@@ -11,7 +11,6 @@ import nltk
 
 # Load Data
 df = pd.read_csv("./dataset/spam.csv")
-assert 'Message' in df.columns and 'Label' in df.columns, "Required columns are missing."
 
 # Preprocessing
 def clean_text(text):
