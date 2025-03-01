@@ -25,7 +25,13 @@ def clean_text(text):
 
 
 def remove_stop_words(text):
-    filtered_words = [word for word in text.split() if word.lower() not in stop_words]
+    words = text.split() 
+    filtered_words = []  
+
+    for word in words:   
+        if word.lower() not in stop_words: 
+            filtered_words.append(word)   
+
     return ' '.join(filtered_words)
 
 
